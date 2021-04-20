@@ -3,7 +3,8 @@
 This is folder contain course's auto-grades solution offred by Coursera
 Topics:
 ***************************************************************************************************************
-    1- Go to pdo.php inside week 1, week 3 and week 4 and change the port, dbname, username and password with your database infos.
+    1- Go to pdo.php inside week 1, week 3 and week 4 and change the port, dbname, username and password with your
+       database infos.
 ***************************************************************************************************************
     2- You must go to phpmyadmin and create database, you can use this command:
         CREATE DATABASE DATABASENAME; 
