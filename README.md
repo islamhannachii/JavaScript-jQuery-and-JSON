@@ -4,7 +4,7 @@ This is folder contain course's auto-grade solution offred by Coursera
 Topics:
     1- You must go to phpmyadmin and create database, you can use this command 
         CREATE DATABASE DATABASENAME; 
-    ***************************************************************************************************************
+***************************************************************************************************************
     2- Create a Users, Profile , Institution, Education and Postion tables    
     Users table: ******************************
         CREATE TABLE users (
