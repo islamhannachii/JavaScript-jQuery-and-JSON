@@ -1,13 +1,14 @@
 <?php 
 try {
-    $pdo = new PDO('mysql:host=localhost;port=3306;dbname=new', 'root', '');
+    // Database Information
+    // Change the port, dbname, username and password
+    $pdo = new PDO('mysql: host=localhost; port=3306; dbname= DATABASENAME', 'username', 'password');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 }
-catch (EXCEPTION $ex)
+catch (PDOEXCEPTION $ex)
 {
-    echo "DATA BASE ERROR\n";
-    echo $ex->getMessage();
-    }
+    die( "DATA BASE ERROR\n".$ex->getMessage());
+}
     
     ?>

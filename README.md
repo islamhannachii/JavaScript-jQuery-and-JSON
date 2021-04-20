@@ -3,10 +3,12 @@
 This is folder contain course's auto-grades solution offred by Coursera
 Topics:
 ***************************************************************************************************************
-    1- You must go to phpmyadmin and create database, you can use this command:
+    1- Go to pdo.php inside week 1, week 3 and week 4 and change the port, dbname, username and password with your database infos.
+***************************************************************************************************************
+    2- You must go to phpmyadmin and create database, you can use this command:
         CREATE DATABASE DATABASENAME; 
 ***************************************************************************************************************
-    2- Create a Users, Profile , Institution, Education and Postion tables    
+    3- Create a Users, Profile , Institution, Education and Postion tables    
     Users table: 
         CREATE TABLE users (
             user_id INTEGER NOT NULL AUTO_INCREMENT,
@@ -45,7 +47,6 @@ Topics:
             REFERENCES Profile (profile_id)
             ON DELETE CASCADE ON UPDATE CASCADE
             )ENGINE=InnoDB DEFAULT CHARSET=utf8;
-###########################################################
     Institution table: 
         CREATE TABLE Institution (
             institution_id INTEGER NOT NULL AUTO_INCREMENT,
@@ -59,7 +60,6 @@ Topics:
             institution_id INTEGER,
             rank INTEGER,
             year INTEGER,
-
             CONSTRAINT education_ibfk_1
                   FOREIGN KEY (profile_id)
                   REFERENCES Profile (profile_id)
@@ -73,7 +73,7 @@ Topics:
             PRIMARY KEY(profile_id, institution_id)
         )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ***************************************************************************************************************
-    3- Insert User information and Institution informations: 
+    4- Insert User information and Institution informations: 
         INSERT INTO users (name,email,password) VALUES ('UMSI','umsi@umich.edu','1a52e17fa899cf40fb04cfc42e6352f1');
         INSERT INTO Institution (name) VALUES ('University of Michigan');
         INSERT INTO Institution (name) VALUES ('University of Virginia');
