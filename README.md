@@ -45,6 +45,7 @@ Topics:
             REFERENCES Profile (profile_id)
             ON DELETE CASCADE ON UPDATE CASCADE
             )ENGINE=InnoDB DEFAULT CHARSET=utf8;
+###########################################################
     Institution table: 
         CREATE TABLE Institution (
             institution_id INTEGER NOT NULL AUTO_INCREMENT,
