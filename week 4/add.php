@@ -103,7 +103,7 @@ if(isset($_REQUEST['cancel'])) header('Location: index.php');
 ?>
 
 <html><head>
-<title>Profile Add Islam Hannachi 4ce8f9c0</title>
+<title>Profile Add</title>
 
 <head>
 

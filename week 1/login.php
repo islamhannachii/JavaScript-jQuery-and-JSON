@@ -35,7 +35,7 @@ if(isset($_SESSION['user_id']) || isset($_POST['cancel'])) header('Location: ind
         }
 ?>
 <html><head>
-<title>Login Page Islam Hannachi 652901eb</title>
+<title>Login Page</title>
 <!-- bootstrap.php - this is HTML -->
 
 <!-- Latest compiled and minified CSS -->
@@ -46,7 +46,7 @@ if(isset($_SESSION['user_id']) || isset($_POST['cancel'])) header('Location: ind
 
 <body>
 <div class="container">
-<h1>Please Log In Islam Hannachi</h1>
+<h1>Please Log In </h1>
 <?php
 if(isset($_SESSION['error'])) 
 {

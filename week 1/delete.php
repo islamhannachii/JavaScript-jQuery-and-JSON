@@ -24,7 +24,7 @@ if((isset($_POST['delete'])))
     }
 ?>
 <html><head>
-<title>652901eb Delete Profile</title>
+<title>Delete Profile</title>
 <!-- bootstrap.php - this is HTML -->
 
 <!-- Latest compiled and minified CSS -->

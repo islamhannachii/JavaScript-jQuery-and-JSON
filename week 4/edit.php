@@ -118,7 +118,7 @@ if(isset($_REQUEST['cancel'])) header('Location: index.php');
 
 
 <html><head>
-<title> Profile Edit 4ce8f9c0</title>
+<title> Profile Edit</title>
 <!-- head.php -->
 
 

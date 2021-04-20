@@ -8,7 +8,7 @@ if(!$row) {$_SESSION['error'] = 'Could not load profile'; header("Location:index
 
 ?>
 <html><head>
-<title>652901eb Profile View</title>
+<title>Profile View</title>
 <!-- bootstrap.php - this is HTML -->
 
 <!-- Latest compiled and minified CSS -->

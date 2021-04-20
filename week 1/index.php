@@ -8,7 +8,7 @@ session_start();
 
 
 <html><head>
-<title>652901eb</title>
+<title>Index</title>
 <!-- bootstrap.php - this is HTML -->
 
 <!-- Latest compiled and minified CSS -->

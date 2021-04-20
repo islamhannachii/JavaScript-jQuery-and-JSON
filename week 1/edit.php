@@ -44,7 +44,7 @@ if(isset($_REQUEST['cancel'])) header('Location: index.php');
 
 
 <html><head>
-<title>652901eb Add Profile</title>
+<title>Add Profile</title>
 <!-- bootstrap.php - this is HTML -->
 
 <!-- Latest compiled and minified CSS -->
