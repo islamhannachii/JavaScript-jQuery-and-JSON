@@ -3,10 +3,11 @@
 This is folder contain course's auto-grades solution offred by Coursera
 Topics:
 ***************************************************************************************************************
-    1- You must go to phpmyadmin and create database, you can use this command 
+    1- You must go to phpmyadmin and create database, you can use this command:
         CREATE DATABASE DATABASENAME; 
+***************************************************************************************************************
     2- Create a Users, Profile , Institution, Education and Postion tables    
-    Users table: ******************************
+    Users table: 
         CREATE TABLE users (
             user_id INTEGER NOT NULL AUTO_INCREMENT,
             name VARCHAR(128),
@@ -16,7 +17,7 @@ Topics:
         ) ENGINE = InnoDB DEFAULT CHARSET=utf8;
         ALTER TABLE users ADD INDEX(email);
         ALTER TABLE users ADD INDEX(password);
-    Profile table: *****************************
+    Profile table:
         CREATE TABLE Profile (
             profile_id INTEGER NOT NULL AUTO_INCREMENT,
             user_id INTEGER NOT NULL,
@@ -31,7 +32,7 @@ Topics:
             REFERENCES users (user_id)
             ON DELETE CASCADE ON UPDATE CASCADE
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-    Position table:*****************************
+    Position table:
         CREATE TABLE Position (
             position_id INTEGER NOT NULL AUTO_INCREMENT,
             profile_id INTEGER,
@@ -44,14 +45,14 @@ Topics:
             REFERENCES Profile (profile_id)
             ON DELETE CASCADE ON UPDATE CASCADE
             )ENGINE=InnoDB DEFAULT CHARSET=utf8;
-    Institution table: **************************
+    Institution table: 
         CREATE TABLE Institution (
             institution_id INTEGER NOT NULL AUTO_INCREMENT,
             name VARCHAR(255),
             PRIMARY KEY(institution_id),
             UNIQUE(name)
             )ENGINE=InnoDB DEFAULT CHARSET=utf8;
-    Education table: ****************************
+    Education table: 
         CREATE TABLE Education (
             profile_id INTEGER,
             institution_id INTEGER,
