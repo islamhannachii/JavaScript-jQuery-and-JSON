@@ -1,10 +1,10 @@
 **JavaScript, jQuery, and JSON**
 
-This is folder contain course's auto-grade solution offred by Coursera
+This is folder contain course's auto-grades solution offred by Coursera
 Topics:
+***************************************************************************************************************
     1- You must go to phpmyadmin and create database, you can use this command 
         CREATE DATABASE DATABASENAME; 
-***************************************************************************************************************
     2- Create a Users, Profile , Institution, Education and Postion tables    
     Users table: ******************************
         CREATE TABLE users (
@@ -70,7 +70,7 @@ Topics:
 
             PRIMARY KEY(profile_id, institution_id)
         )ENGINE=InnoDB DEFAULT CHARSET=utf8;
-    ***************************************************************************************************************
+***************************************************************************************************************
     3- Insert User information and Institution informations: 
         INSERT INTO users (name,email,password) VALUES ('UMSI','umsi@umich.edu','1a52e17fa899cf40fb04cfc42e6352f1');
         INSERT INTO Institution (name) VALUES ('University of Michigan');
@@ -82,7 +82,7 @@ Topics:
         INSERT INTO Institution (name) VALUES ('Michigan State University');
         INSERT INTO Institution (name) VALUES ('Mississippi State University');
         INSERT INTO Institution (name) VALUES ('Montana State University');
-    ***************************************************************************************************************
+***************************************************************************************************************
     5- Login email: umsi@umich.edu
             password: php123
 
